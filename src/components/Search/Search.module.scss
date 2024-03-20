@@ -1,5 +1,7 @@
 .searchContainer {
     position: relative;
+    width: 100%;
+
 }
 
 .searchLine {
@@ -8,7 +10,7 @@
     border: 1px solid #e2e4f0;
     border-radius: 8px;
     padding: 8px 12px 8px 16px;
-    width: 732px;
+    // width: 732px;
     // width: 45vw;
     height: 48px;
 
@@ -37,7 +39,7 @@
     }
 
     @media (max-width:1595px) {
-        width: 100%;
+        // width: 100%;
     }
 }
 
