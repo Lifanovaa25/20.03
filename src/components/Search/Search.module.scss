@@ -9,6 +9,7 @@
     border-radius: 8px;
     padding: 8px 12px 8px 16px;
     width: 732px;
+    // width: 45vw;
     height: 48px;
 
     font-family: "Gotham Pro", sans-serif;
@@ -33,6 +34,10 @@
 
     &::placeholder {
         color: #828ead;
+    }
+
+    @media (max-width:1595px) {
+        width: 100%;
     }
 }
 

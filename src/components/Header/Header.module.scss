@@ -10,6 +10,8 @@
     align-items: center;
     gap: 24px;
     padding: 16px 24px;
+    justify-content: space-between;
+    
     @media (min-width:1680px) {
         gap: initial;
         justify-content: space-between;
