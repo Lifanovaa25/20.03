@@ -5,6 +5,16 @@
     gap: 48px;
 }
 
+.productName {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #071435;
+    margin-bottom: 32px;
+}
+
 .card {}
 
 .product_preview {
@@ -68,4 +78,350 @@
 
 .arrow_prev {
     transform: rotate(180deg);
+}
+
+.details {
+    padding-top: 24px;
+}
+
+.description {
+    .title {
+        font-family: "Gotham", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 117%;
+        color: #071435;
+        margin-bottom: 24px;
+    }
+
+    p {
+        font-family: "Gotham", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        color: #071435;
+    }
+}
+
+.price_item {
+    margin-bottom: 48px;
+    display: flex;
+    gap: 48px;
+}
+
+.price_details {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    max-width: 372px;
+
+    .without_discount {
+        font-family: "Gotham", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 114%;
+        color: #ff3d71;
+        margin-bottom: 24px;
+    }
+}
+
+.discount {
+    font-family: "Gotham", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #071435;
+
+    margin-bottom: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+
+    span {
+        border-radius: 4px;
+        padding: 2px 8px;
+        background: #ff3d71;
+
+        font-family: "Gotham", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 125%;
+        color: #fff;
+        // width: 53px;
+        // height: 22px;
+    }
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #e2e4f0;
+
+}
+
+.beekLine {
+    border-left: 1px solid #e2e4f0;
+    height: 312px;
+
+    // height: 0px;
+}
+
+.order_details {
+    display: flex;
+    gap: 16px;
+
+    .order_span {
+        border-radius: 8px;
+        padding: 8px;
+        // width: 111px;
+        // height: 26px;
+        background: #f2f5f9;
+
+        font-family: "Gotham", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 114%;
+        color: #828ead;
+    }
+}
+
+.checkbox_ios {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 10px;
+    position: relative;
+    vertical-align: middle;
+    font-size: 14px;
+    user-select: none;
+
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #071435;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.checkbox_ios .checkbox {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40px;
+    height: 24px;
+    border: 1px solid #1551E5;
+    border-radius: 32px;
+    vertical-align: top;
+    background: #eee;
+    transition: .2s;
+    cursor: pointer;
+
+    &:hover {
+        filter: contrast(.95)
+    }
+}
+
+.checkbox_ios .checkbox:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 3px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    // box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    transition: .15s;
+}
+
+.checkbox_ios input[type=checkbox] {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox_ios input[type=checkbox]:checked+.checkbox {
+    background: #1551E5;
+}
+
+.checkbox_ios input[type=checkbox]:checked+.checkbox:before {
+    transform: translateX(14px);
+}
+
+/* Disabled */
+.checkbox_ios input[type=checkbox]:disabled+.checkbox {
+    filter: grayscale(70%);
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.checkbox_ios input[type=checkbox]:disabled+.checkbox:before {
+    background: #eee;
+}
+
+.details_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    width: 100%;
+
+    .detail_item {
+
+        font-family: "Gotham", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        color: #828ead;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 4px;
+
+        span {
+            font-family: "Gotham", sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 133%;
+            color: #071435;
+        }
+    }
+}
+
+.buttons_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.add_to_basket {
+    background: #1551e5;
+    border-radius: 8px;
+    padding: 16px 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    color: #fff;
+
+    width: 284px;
+
+    &:hover {
+        border-radius: 8px;
+        box-shadow: 0 12px 16px -7px rgba(21, 81, 229, 0.44);
+        background: #316cff;
+    }
+}
+
+.product_count {
+    border: 2px solid #1551e5;
+    border-radius: 8px;
+    padding: 8px 52px;
+    width: 284px;
+    height: 56px;
+    box-shadow: 0 0 6px 0 #bac4e0;
+    background: #fff;
+    position:relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #071435;
+}
+.delete,
+.add {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover {
+        img {
+        filter: contrast(.75);
+        }
+    }
+}
+.delete{
+left: 16px;
+ }
+.add {
+right: 16px;
+}
+.favourite_btn {
+    border-radius: 8px;
+    padding: 16px 24px;
+    width: 72px;
+    height: 56px;
+    &:hover {
+        filter: contrast(.75);
+    }
+}
+
+.specifications {
+    padding: 9px 0;
+    width: 100%;
+}
+
+.specifications__title {
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #071435;
+    margin-bottom: 32px;
+}
+
+.specifications_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 24px;
+
+    .__item {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .__name {
+        font-family: "Gotham", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        color: #828ead;
+    }
+
+    .__value {
+        font-family: "Gotham", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 114%;
+        color: #071435;
+    }
 }

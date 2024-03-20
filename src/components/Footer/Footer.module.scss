@@ -1,0 +1,173 @@
+footer {
+    padding: 0 24px;
+}
+
+.wrapper {
+    padding: 48px 0;
+    border-top: 1px solid #e2e4f0;
+    border-bottom: 1px solid #e2e4f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_col {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 56px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    a {
+        font-family: "Gotham", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 125%;
+        color: #050d23;
+    }
+
+    span {
+        font-family: "Gotham", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        color: #77829e;
+    }
+}
+
+.footer_nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 32px;
+}
+
+.nav_link {
+    font-family: "Gotham", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #071435;
+    border-radius: 8px;
+    padding: 19px 24px;
+
+    &:hover {
+        background: #f2f6ff;
+        font-weight: 500;
+        // font-size: 14px;
+        // line-height: 114%;
+        color: #1551e5;
+    }
+}
+
+.catalog {
+    padding: 48px 0;
+    border-bottom: 1px solid #e2e4f0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.catalog_col {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.catalog_link {
+    font-family: "Gotham", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #050d23;
+    margin-bottom: 16px;
+
+}
+
+.catalog_link_title {
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #050d23;
+    margin-bottom: 24px;
+}
+
+.foot {
+    padding: 48px 0;
+}
+
+.social_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.social_link {
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #828ead;
+
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    &:hover {
+        color: #1551e5;
+
+        svg {
+            g {
+                fill: #1551e5;
+                stroke: #1551e5;
+            }
+
+            mask {
+                path {
+                    fill: #1551e5;
+                    stroke: #1551e5;
+                }
+            }
+
+        }
+    }
+}
+
+.foot_p {
+    padding: 40px 0;
+
+    p {
+        font-family: "Gotham", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        text-align: center;
+        color: #828ead;
+    }
+}
+
+.bottom {
+    padding-bottom: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.gray_link {
+    font-family: "Gotham", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 114%;
+    color: #8f9bb3;
+}

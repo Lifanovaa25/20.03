@@ -1,5 +1,4 @@
 import ProductCard from '../ProductCard/ProductCard';
-import cart from './../../assets/img/svg/cart_Icon.svg'
 import styles from "./Main.module.scss";
 
 export const Main = () => {
