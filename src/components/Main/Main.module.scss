@@ -1,0 +1,18 @@
+.container {
+    max-width: 1600px;
+    padding: 32px 24px;
+}
+
+.breadcrumbs {
+    font-family: "Gotham", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    color: #828ead;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+    margin-bottom: 24px;
+}
