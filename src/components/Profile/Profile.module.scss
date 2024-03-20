@@ -1,0 +1,31 @@
+.profile_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.avatar {
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+}
+
+.user_name {
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #071435;
+
+}
+
+.firstNme {
+    font-size: 0;
+
+    &::first-letter {
+        font-size: 14px;
+
+    }
+}

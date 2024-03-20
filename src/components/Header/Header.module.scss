@@ -1,0 +1,38 @@
+.header {
+    padding: 0 24px;
+    width: 100%;
+    // max-width: 1600px;
+    // height: 80px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 0px;
+}
+
+.alerts {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 24px;
+    width: 110px;
+
+    .separator {
+        width: 1px;
+        height: 48px;
+        background: #e2e4f0;
+        border: 1px solid #e2e4f0
+    }
+
+    img {
+        width: 32px;
+        cursor: pointer;
+    }
+    &:hover {
+        .favorite {
+            fill: #f2f6ff;
+        }
+    }
+}

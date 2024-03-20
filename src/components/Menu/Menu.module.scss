@@ -1,0 +1,26 @@
+.menu_btn {
+    font-family: "Gotham", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 24px;
+    // width: 127px;
+    // height: 48px;
+    background: #1551e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+
+    &:hover {
+        border-radius: 8px;
+        // width: 132px;
+        // height: 56px;
+        box-shadow: 0 12px 16px -7px rgba(21, 81, 229, 0.44);
+        background: #316cff;
+    }
+}

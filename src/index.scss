@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Gotham";
+  src: url('./assets/fonts/Gotham/gotham_thin.otf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url('./assets/fonts/Gotham/gotham_light.otf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url('./assets/fonts/Gotham/gotham_medium.otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url('./assets/fonts/Gotham/gotham_bold.otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Vela Sans";
+  src: url('./assets/fonts/ofont.ru_Vela\ Sans.ttf');
+}
+
+@font-face {
+  font-family: " Gotham Pro";
+  src: url('./assets/fonts/ofont.ru_Vela\ Sans.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+:root {
+  --font-family: "Gotham", sans-serif;
+  --second-family: "Vela Sans", sans-serif;
+  --third-family: "Gotham Pro", sans-serif;
+}
