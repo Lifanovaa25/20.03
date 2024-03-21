@@ -47,15 +47,20 @@
         align-items: center;
         justify-content: center;
         background: transparent;
-
+ 
+        cursor: pointer;
         &:first-of-type {
-            background: #f2f6ff;
+            // background: #f2f6ff;
 
             gap: 8px;
         }
 
         &:nth-child(2) {
             gap: 16px;
+        }
+        &:hover {
+            background: #f2f6ff;
+
         }
     }
 
